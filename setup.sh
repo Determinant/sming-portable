@@ -23,3 +23,4 @@ curl -Lb ./cookie.txt "https://drive.google.com/uc?export=download&confirm=`awk 
 unzip "$esp_tc_zip"
 mv opt/esp-open-sdk/xtensa-lx106-elf esp-open-sdk/
 rm -rf opt/
+rm -f "$esp_tc_zip"
