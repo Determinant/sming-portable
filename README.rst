@@ -20,6 +20,15 @@ Build
     # at the repo root
     ./build.sh
 
+Flash
+=====
+
+::
+
+    # at the repo root
+    # make sure the device is at /dev/ttyUSB0 and your current user has write permission
+    ./flash.sh
+
 Tweaks
 ======
 
